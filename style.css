@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+.container{
+    width: 400px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+h1{
+    background-color: aqua;
+    padding: 20px;
+}
+.input-div{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 30px;   
+}
+.input-div label{
+    text-align: center;
+    font-size: larger;
+}
+.input-div input{
+    padding: 15px 10px ;
+    border-style: none;
+    border: 2px solid black;
+    width: 70px;
+    font-size: larger;
+}
+.input-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+button{
+    padding: 10px 50px;
+    border-radius: 5px;
+    border-style: none;
+    border: 2px solid black;
+    background-color: rgba(128, 128, 128, 0.062);
+    cursor: pointer;
+}
+.button-div{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+/* .output-div{
+    height: 100px;
+} */
+.description h1{
+    padding: 20px;
+    margin: 10px 0px;
+}
+.guide p{
+    margin: 10px 0px;
+    margin-left: 20px;
+    font-size: larger;
+}
+#description{
+    color:red;
+    margin: 20px 0px;
+}
